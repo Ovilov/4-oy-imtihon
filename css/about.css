@@ -1,0 +1,128 @@
+.hero {
+  background-image: url("../images/png/ab.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.hero__title {
+  font-size: 64px;
+  line-height: 100px;
+  font-weight: 700;
+  width: 350px;
+  margin-bottom: 8px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 730px;
+  height: 156px;
+}
+.line {
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+}
+.description__content {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.directors {
+  background-image: url("../images/png/director.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.directors__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+.cards {
+  margin-bottom: 76px;
+}
+.cards__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 76px;
+}
+.cards__item {
+  width: 350px;
+  height: 253px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #012f34;
+  .directors__img {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    width: 96px;
+    height: 96px;
+  }
+  .doira {
+    width: 56px;
+    height: 56px;
+    margin-bottom: -28px;
+    margin-top: 28px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  p {
+    width: 254px;
+  }
+}
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+.cards__name {
+  color: #79c8c7;
+}
+.x {
+  margin-bottom: -80px;
+  margin-top: 30px;
+}
+.black__card {
+  background-color: #002529;
+}
+.top-left__bg {
+  height: 140px;
+  background-image: url("../images/png/top\ left\ 3.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.client {
+  background-image: url("../images/png/clients-circle.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: #012f34;
+}
+.client__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 64px;
+}
+.client__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin-top: 140px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
